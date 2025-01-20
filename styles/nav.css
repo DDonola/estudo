@@ -1,0 +1,32 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 20px;
+
+    & a#logo {
+        max-height: 32px;
+    }
+
+    & div{
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        height: 40px;
+
+        & a {
+            font: var(--text);
+            color: var(--text-color-secundary);
+        }
+
+        & img {
+            display: block;
+        }
+
+        & img#miniature {
+            max-width: 40px;
+            max-height: 40px;
+            border-radius: 50%;
+        }
+    }
+}
